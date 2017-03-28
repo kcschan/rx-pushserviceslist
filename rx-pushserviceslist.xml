@@ -1,4 +1,6 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" 
+              type="service"
+              sender="any">
   <intent-filter>
     <action name="com.umeng.message.UmengDownloadResourceService" />
     <action name="com.umeng.message.UmengIntentService" />
