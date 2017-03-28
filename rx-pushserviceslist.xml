@@ -1,4 +1,4 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" 
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v2" 
               type="service"
               sender="any">
   <intent-filter>
@@ -45,7 +45,6 @@
     <action name="com.taobao.munion.base.download.DownloadingService" /> 
     <action name="com.alipay.pushsdk.deliver.PushReportIntentService" /> 
     <action name="com.alipay.pushsdk.push.NotificationService" /> 
-    <action name="com.baidu.location.f" /> 
     <action name="com.baidu.android.pushservice.PushService" /> 
     <action name="com.dianping.base.push.pushservice.PullService" /> 
     <action name="com.dianping.base.push.pushservice.dp.FakeService" /> 
