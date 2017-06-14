@@ -1,4 +1,4 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v3">
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
   <prescription type="service" class="com.umeng.message.UmengMessageCallbackHandlerService" sender="any"/>
   <prescription type="service" class="org.android.agoo.client.ElectionReceiverService" sender="any"/>
   <prescription type="service" class="org.android.agoo.client.MessageReceiverService" sender="any"/>
@@ -63,4 +63,4 @@
   <prescription type="service" class="com.cocos.push.service.CCPushService" sender="any"/>
   <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any"/>
   <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any"/>
-</prescription>
+</prescriptions>
