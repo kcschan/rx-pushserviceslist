@@ -1,4 +1,4 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v2" 
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" 
               type="service"
               sender="any">
   <intent-filter>
