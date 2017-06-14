@@ -1,61 +1,66 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" 
-              type="service"
-              sender="any">
-  <intent-filter>
-    <action name="com.umeng.message.UmengDownloadResourceService" />
-    <action name="com.umeng.message.UmengIntentService" />
-    <action name="com.umeng.message.UmengService" /> 
-    <action name="com.umeng.update.net.DownloadingService" />
-    <action name="com.umeng.common.net.DownloadingService" />
-    <action name="com.xiaomi.mipush.sdk.PushMessageHandler" /> 
-    <action name="com.xiaomi.mipush.sdk.MessageHandleService" />
-    <action name="com.xiaomi.push.service.PushMessageHandler" />
-    <action name="com.xiaomi.push.service.XMPushService" /> 
-    <action name="cn.jpush.android.service.AlarmReceiver" />
-    <action name="cn.jpush.android.service.DownloadService" />
-    <action name="cn.jpush.android.ui.PushActivity" /> 
-    <action name="cn.jpush.android.service.PushService" />
-    <action name="com.mobridge.MoPushService" />
-    <action name="cn.bmob.push.PushReceiver" /> 
-    <action name="cn.bmob.push.lib.service.PushService" />
-    <action name="com.igexin.getuiext.service.GetuiExtService" />
-    <action name="com.igexin.download.DownloadService" /> 
-    <action name="com.igexin.sdk.PushService" />
-    <action name="cn.immob.sdk.net.DownloadService" />
-    <action name="com.ixintui.push.PushService" /> 
-    <action name="com.imofan.android.basic.update.MFUpdateService" />
-    <action name="com.mrocker.push.service.PushServiceReceiver" />
-    <action name="com.mrocker.push.service.PushService" /> 
-    <action name="com.cocos.push.client.CCPushClientReceiver" />
-    <action name="com.cocos.push.service.CCPushService" />
-    <action name="com.avos.avoscloud.AVDefaultNotificationReceiver" /> 
-    <action name="com.avos.avoscloud.PushService" />
-    <action name="com.zihao.service.MyMsgService" />
-    <action name="com.jiubang.go.push.PushService" /> 
-    <action name="com.cmcc.aoe.push.AOEService" /> 
-    <action name="com.cmcc.aoe.AoeService" /> 
-    <action name="com.mopaas.backendmonitor.MonitorService" /> 
-    <action name="com.mopaas.pushservice.sdk.MPSPushService" /> 
-    <action name="com.atom.push.sdk.AtomPushActionCustomReceiver" /> 
-    <action name="com.atom.push.sdk.AtomAlarmReceiver" /> 
-    <action name="com.atom.push.sdk.AtomPushService" /> 
-    <action name="io.yunba.android.core.YunBaService" /> 
-    <action name="cn.grandmobile.sdk.android.PushBroadcastReceiver" /> 
-    <action name="cn.grandmobile.sdk.android.PushService" /> 
-    <action name="com.taobao.munion.base.download.DownloadingService" /> 
-    <action name="com.alipay.pushsdk.deliver.PushReportIntentService" /> 
-    <action name="com.alipay.pushsdk.push.NotificationService" /> 
-    <action name="com.baidu.android.pushservice.PushService" /> 
-    <action name="com.dianping.base.push.pushservice.PullService" /> 
-    <action name="com.dianping.base.push.pushservice.dp.FakeService" /> 
-    <action name="com.dianping.base.push.pushservice.dp.DPPushService" /> 
-    <action name="com.tencent.android.tpush.rpc.XGRemoteService" /> 
-    <action name="com.tencent.android.tpush.XGPushActivity" /> 
-    <action name="com.tencent.android.tpush.service.XGPushService" /> 
-    <action name="com.huawei.deviceCloud.microKernel.push.PushMKService" /> 
-    <action name="com.huawei.deviceCloud.microKernel.push.PushBootReceiver" /> 
-    <action name="com.huawei.deviceCloud.microKernel.push.EventReceiver" /> 
-    <action name="org.ddpush.im.v1.client.appuser.Message" /> 
-    <action name="com.cocos.push.service.CCPushService" /> 
-  </intent-filter>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v3">
+  <prescription type="service" class="com.umeng.message.UmengMessageCallbackHandlerService" sender="any"/>
+  <prescription type="service" class="org.android.agoo.client.ElectionReceiverService" sender="any"/>
+  <prescription type="service" class="org.android.agoo.client.MessageReceiverService" sender="any"/>
+  <prescription type="service" class="com.umeng.message.UmengMessageIntentReceiverService" sender="any"/>
+  <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any"/>
+  <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any"/>
+  <prescription type="service" class="com.umeng.message.UmengIntentService" sender="any"/>
+  <prescription type="service" class="com.umeng.message.UmengService" sender="any"/>
+  <prescription type="service" class="com.umeng.update.net.DownloadingService" sender="any"/>
+  <prescription type="service" class="com.umeng.common.net.DownloadingService" sender="any"/>
+  <prescription type="service" class="com.xiaomi.mipush.sdk.PushMessageHandler" sender="any"/>
+  <prescription type="service" class="com.xiaomi.mipush.sdk.MessageHandleService" sender="any"/>
+  <prescription type="service" class="com.xiaomi.mipush.sdk.MessageHandleService" sender="any"/>
+  <prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="any"/>
+  <prescription type="service" class="com.xiaomi.push.service.PushMessageHandler" sender="any"/>
+  <prescription type="service" class="com.xiaomi.push.service.XMPushService" sender="any"/>
+  <prescription type="broadcast" class="cn.jpush.android.service.AlarmReceiver" sender="any"/>
+  <prescription type="service" class="cn.jpush.android.service.DownloadService" sender="any"/>
+  <prescription type="activity" class="cn.jpush.android.ui.PushActivity" sender="any"/>
+  <prescription type="service" class="cn.jpush.android.service.PushService" sender="any"/>
+  <prescription type="service" class="com.mobridge.MoPushService" sender="any"/>
+  <prescription type="service" class="cn.bmob.push.PushReceiver" sender="any"/>
+  <prescription type="service" class="cn.bmob.push.lib.service.PushService" sender="any"/>
+  <prescription type="service" class="com.igexin.getuiext.service.GetuiExtService" sender="any"/>
+  <prescription type="service" class="com.igexin.download.DownloadService" sender="any"/>
+  <prescription type="service" class="com.igexin.sdk.PushService" sender="any"/>
+  <prescription type="service" class="cn.immob.sdk.net.DownloadService" sender="any"/>
+  <prescription type="service" class="com.ixintui.push.PushService" sender="any"/>
+  <prescription type="service" class="com.imofan.android.basic.update.MFUpdateService" sender="any"/>
+  <prescription type="service" class="com.mrocker.push.service.PushServiceReceiver" sender="any"/>
+  <prescription type="service" class="com.mrocker.push.service.PushService" sender="any"/>
+  <prescription type="service" class="com.cocos.push.client.CCPushClientReceiver" sender="any"/>
+  <prescription type="service" class="com.cocos.push.service.CCPushService" sender="any"/>
+  <prescription type="service" class="com.avos.avoscloud.AVDefaultNotificationReceiver" sender="any"/>
+  <prescription type="service" class="com.avos.avoscloud.PushService" sender="any"/>
+  <prescription type="service" class="com.zihao.service.MyMsgService" sender="any"/>
+  <prescription type="service" class="com.jiubang.go.push.PushService" sender="any"/>
+  <prescription type="service" class="com.cmcc.aoe.push.AOEService" sender="any"/>
+  <prescription type="service" class="com.cmcc.aoe.AoeService" sender="any"/>
+  <prescription type="service" class="com.mopaas.backendmonitor.MonitorService" sender="any"/>
+  <prescription type="service" class="com.mopaas.pushservice.sdk.MPSPushService" sender="any"/>
+  <prescription type="broadcast" class="com.atom.push.sdk.AtomPushActionCustomReceiver" sender="any"/>
+  <prescription type="broadcast" class="com.atom.push.sdk.AtomAlarmReceiver" sender="any"/>
+  <prescription type="service" class="com.atom.push.sdk.AtomPushService" sender="any"/>
+  <prescription type="service" class="io.yunba.android.core.YunBaService" sender="any"/>
+  <prescription type="broadcast" class="cn.grandmobile.sdk.android.PushBroadcastReceiver" sender="any"/>
+  <prescription type="service" class="cn.grandmobile.sdk.android.PushService" sender="any"/>
+  <prescription type="service" class="com.taobao.munion.base.download.DownloadingService" sender="any"/>
+  <prescription type="service" class="com.alipay.pushsdk.deliver.PushReportIntentService" sender="any"/>
+  <prescription type="service" class="com.alipay.pushsdk.push.NotificationService" sender="any"/>
+  <prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any"/>
+  <prescription type="service" class="com.dianping.base.push.pushservice.PullService" sender="any"/>
+  <prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any"/>
+  <prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any"/>
+  <prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any"/>
+  <prescription type="activity" class="com.tencent.android.tpush.XGPushActivity" sender="any"/>
+  <prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any"/>
+  <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushMKService" sender="any"/>
+  <prescription type="broadcast" class="com.huawei.deviceCloud.microKernel.push.PushBootReceiver" sender="any"/>
+  <prescription type="broadcast" class="com.huawei.deviceCloud.microKernel.push.EventReceiver" sender="any"/>
+  <prescription type="service" class="org.ddpush.im.v1.client.appuser.Message" sender="any"/>
+  <prescription type="service" class="com.cocos.push.service.CCPushService" sender="any"/>
+  <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any"/>
+  <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any"/>
 </prescription>
