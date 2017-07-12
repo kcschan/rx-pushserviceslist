@@ -68,5 +68,5 @@
   <prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any"/>
   <prescription type="broadcast" package="com.ss.android.article.news" class="com.ss.android.message.MessageReceiver" sender="any" />
   <prescription type="service" package="com.ss.android.article.news" class="com.ss.android.message.NotifyService" sender="any" />
-  <prescription type="activity" class="com.autonavi.map.activity.SpalashActivity" sender="any"/>
+  <prescription type="activity" class="com.autonavi.map.activity.SplashActivity" sender="any"/>
 </prescriptions>
