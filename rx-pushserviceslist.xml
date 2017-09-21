@@ -57,6 +57,7 @@
   <prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any"/>
   <prescription type="activity" class="com.tencent.android.tpush.XGPushActivity" sender="any"/>
   <prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any"/>
+  <prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV3" sender="any"/>
   <prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushMKService" sender="any"/>
   <prescription type="broadcast" class="com.huawei.deviceCloud.microKernel.push.PushBootReceiver" sender="any"/>
   <prescription type="broadcast" class="com.huawei.deviceCloud.microKernel.push.EventReceiver" sender="any"/>
