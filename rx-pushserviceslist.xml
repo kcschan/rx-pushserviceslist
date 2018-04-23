@@ -67,6 +67,13 @@
   <prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="any"/>
   <prescription type="service" class="mtopsdk.xstate.XStateService" sender="any"/>
   <prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any"/>
-  <prescription type="broadcast" package="com.ss.android.article.news" class="com.ss.android.message.MessageReceiver" sender="any" />
-  <prescription type="service" package="com.ss.android.article.news" class="com.ss.android.message.NotifyService" sender="any" />
+  <prescription type="broadcast" package="com.ss.android.article.news" class="com.ss.android.message.MessageReceiver" sender="any"/>
+  <prescription type="service" package="com.ss.android.article.news" class="com.ss.android.message.NotifyService" sender="any"/>
+  <prescription type="broadcast" class="com.baidu.pass.ndid.receiver.BaiduNDIDReceiver" sender="any"/>
+  <prescription type="broadcast" class="com.baidu.mapframework.nacrashcollector.service.NaCrashReceiver" sender="any"/>
+  <prescription type="broadcast" class="com.baidu.safemode.service.SafeModeReceiver" sender="any"/>
+  <prescription type="broadcast" class="com.baidu.android.pushservice.viproxy.ViPushMessageReceiver" sender="any"/>
+  <prescription type="service" class="com.vivo.push.sdk.service.CommandClientService" sender="any"/>
+  <prescription type="service" class="com.baidu.safemode.service.SafeModeService" sender="any"/>
+  <prescription type="service" class="com.mapframework.nacrashcollector.service.NaCrashService" sender="any"/>
 </prescriptions>
