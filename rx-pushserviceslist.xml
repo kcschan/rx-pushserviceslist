@@ -48,6 +48,7 @@
   <prescription type="service" class="cn.grandmobile.sdk.android.PushService" sender="any"/>
   <prescription type="service" class="com.taobao.munion.base.download.DownloadingService" sender="any"/>
   <prescription type="service" class="com.taobao.accs.ChannelService" sender="any"/>
+  <prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any"/>
   <prescription type="service" class="com.alipay.pushsdk.deliver.PushReportIntentService" sender="any"/>
   <prescription type="service" class="com.alipay.pushsdk.push.NotificationService" sender="any"/>
   <prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any"/>
@@ -76,4 +77,9 @@
   <prescription type="service" class="com.vivo.push.sdk.service.CommandClientService" sender="any"/>
   <prescription type="service" class="com.baidu.safemode.service.SafeModeService" sender="any"/>
   <prescription type="service" class="com.mapframework.nacrashcollector.service.NaCrashService" sender="any"/>
+  <prescription type="service" class="com.alibaba.sdk.android.push.channel.CheckService" sender="any"/>
+  <prescription type="service" class="com.alibaba.sdk.android.push.channel.KeepChannelService" sender="any"/>
+  <prescription type="service" class="com.alibaba.sdk.android.push.channel.TaobaoRecvService" sender="any"/>
+  <prescription type="service" class="com.alibaba.sdk.android.push.MsgService" sender="any"/>
+  <prescription type="service" class="com.alibaba.sdk.android.push.AliyunPushIntentService" sender="any"/>
 </prescriptions>
